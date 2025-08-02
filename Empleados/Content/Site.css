@@ -1,0 +1,107 @@
+﻿:root {
+    --main-bg-color: #f8f9fa; /* Un blanco roto muy suave */
+    --main-text-color: #333;
+    --primary-color: #0d6efd; /* Azul principal de Bootstrap */
+    --sidebar-bg-color: #1a1a1a; /* Negro/Gris muy oscuro */
+    --sidebar-text-color: #adb5bd;
+    --sidebar-accent-color: #cda45e; /* El toque dorado de lujo */
+}
+
+body {
+    overflow-x: hidden;
+    background-color: var(--main-bg-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .primary-text {
+    font-family: 'Playfair Display', serif;
+    color: var(--sidebar-accent-color);
+}
+
+.second-text {
+    color: var(--sidebar-text-color);
+}
+
+#wrapper {
+    display: flex;
+}
+
+#sidebar-wrapper {
+    background: var(--sidebar-bg-color);
+    min-height: 100vh;
+    width: 250px;
+    transition: margin 0.25s ease-out;
+}
+
+    #sidebar-wrapper .sidebar-heading {
+        padding: 0.875rem 1.25rem;
+        font-size: 1.2rem;
+    }
+
+    #sidebar-wrapper .list-group {
+        width: 100%;
+    }
+
+.list-group-item {
+    border: none;
+    padding: 20px 30px;
+}
+
+    .list-group-item:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: var(--sidebar-accent-color) !important;
+        border-left: 4px solid var(--sidebar-accent-color);
+    }
+
+#page-content-wrapper {
+    min-width: 100vw;
+    flex: 1;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: -250px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    min-width: 100vw;
+}
+
+#menu-toggle {
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        margin-left: -250px;
+    }
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.card-header {
+    background: transparent;
+    border-bottom: 1px solid #eee;
+}
+
+.btn-primary {
+    background-color: var(--sidebar-accent-color);
+    border-color: var(--sidebar-accent-color);
+}
+
+    .btn-primary:hover, .btn-primary:focus {
+        background-color: #b8914e; /* Un dorado un poco más oscuro */
+        border-color: #b8914e;
+    }
