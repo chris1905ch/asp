@@ -1,45 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\",
+  "WorkspaceRootPath": "C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|c:\\users\\regon\\onedrive\\escritorio\\chris_gonzalez\\empleados\\empleados\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|solutionrelative:empleados\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\empleados\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|c:\\users\\regon\\onedrive\\escritorio\\empleados\\empleados\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|solutionrelative:empleados\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\empleados\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\empleados\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|solutionrelative:empleados\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\empleados\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|solutionrelative:empleados\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\empleados\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\empleados\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|solutionrelative:empleados\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\empleados\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\empleados\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|solutionrelative:empleados\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\empleados\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\empleados\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|solutionrelative:empleados\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\empleados\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\empleados\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|solutionrelative:empleados\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\empleados\\enums\\tiporol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\empleados\\enums\\tiporol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|solutionrelative:empleados\\enums\\tiporol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\empleados\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\empleados\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|solutionrelative:empleados\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\empleados\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\empleados\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{0A733468-68FB-46A0-9700-9BD4D79E07AD}|Empleados\\Empleados.csproj|solutionrelative:empleados\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
@@ -50,31 +50,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\Empleados\\Web.config",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\Empleados\\Web.config",
               "RelativeDocumentMoniker": "Empleados\\Web.config",
-              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\Empleados\\Web.config",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\Empleados\\Web.config",
               "RelativeToolTip": "Empleados\\Web.config",
               "ViewState": "AgIAACoAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-07-18T23:35:08.298Z"
+              "WhenOpened": "2025-07-18T23:35:08.298Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "EmployeesController.cs",
-              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\Empleados\\Controllers\\EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\Empleados\\Controllers\\EmployeesController.cs",
               "RelativeDocumentMoniker": "Empleados\\Controllers\\EmployeesController.cs",
-              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\Empleados\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\Empleados\\Controllers\\EmployeesController.cs",
               "RelativeToolTip": "Empleados\\Controllers\\EmployeesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -82,36 +79,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\Empleados\\Views\\Account\\Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\Empleados\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Empleados\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\Empleados\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\Empleados\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "Empleados\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-18T23:32:13.252Z"
+              "WhenOpened": "2025-07-18T23:32:13.252Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\Empleados\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\Empleados\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Empleados\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\Empleados\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\Empleados\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Empleados\\Controllers\\AccountController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAmwBwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T23:30:48.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T23:30:48.452Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\Empleados\\Models\\LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\Empleados\\Models\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "Empleados\\Models\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\Empleados\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\Empleados\\Models\\LoginViewModel.cs",
               "RelativeToolTip": "Empleados\\Models\\LoginViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -121,9 +118,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\Empleados\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\Empleados\\Models\\User.cs",
               "RelativeDocumentMoniker": "Empleados\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\Empleados\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\Empleados\\Models\\User.cs",
               "RelativeToolTip": "Empleados\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -133,9 +130,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "TipoRol.cs",
-              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\Empleados\\Enums\\TipoRol.cs",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\Empleados\\Enums\\TipoRol.cs",
               "RelativeDocumentMoniker": "Empleados\\Enums\\TipoRol.cs",
-              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\Empleados\\Enums\\TipoRol.cs",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\Empleados\\Enums\\TipoRol.cs",
               "RelativeToolTip": "Empleados\\Enums\\TipoRol.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -145,9 +142,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\Empleados\\Views\\Employees\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\Empleados\\Views\\Employees\\Index.cshtml",
               "RelativeDocumentMoniker": "Empleados\\Views\\Employees\\Index.cshtml",
-              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\Empleados\\Views\\Employees\\Index.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\Empleados\\Views\\Employees\\Index.cshtml",
               "RelativeToolTip": "Empleados\\Views\\Employees\\Index.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAAABoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -157,9 +154,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Site.css",
-              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\Empleados\\Content\\Site.css",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\Empleados\\Content\\Site.css",
               "RelativeDocumentMoniker": "Empleados\\Content\\Site.css",
-              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\Empleados\\Content\\Site.css",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\Empleados\\Content\\Site.css",
               "RelativeToolTip": "Empleados\\Content\\Site.css",
               "ViewState": "AgIAAFIAAAAAAAAAAAAkwGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -169,9 +166,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\Empleados\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\Empleados\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Empleados\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\Empleados\\Empleados\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\Empleados\\Empleados\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Empleados\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
