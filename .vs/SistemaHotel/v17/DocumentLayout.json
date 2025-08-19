@@ -1,0 +1,851 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|c:\\users\\regon\\onedrive\\escritorio\\sistemahotel\\sistemahotel\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\controllers\\faqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\controllers\\faqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\controllers\\paquetesserviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\controllers\\paquetesserviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\paquetesservicio\\index.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\paquetesservicio\\index.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\paquetesservicio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\paquetesservicio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\controllers\\habitacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\controllers\\habitacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\paquetesservicio\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\paquetesservicio\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\models\\hotelmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\models\\hotelmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\controllers\\trabajadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\controllers\\trabajadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\habitaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\habitaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\dashboard\\index.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\dashboard\\index.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\reservas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\reservas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\login\\index.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\login\\index.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\reservas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\reservas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\clientes\\delete.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\clientes\\delete.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\clientes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\clientes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\home\\menu.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\home\\menu.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\home\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\home\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\content\\site.css||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\content\\site.css||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\clientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\clientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\reservas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\reservas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\reservas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\reservas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\habitaciones\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\habitaciones\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\habitaciones\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\habitaciones\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\habitaciones\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\habitaciones\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\trabajadores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\trabajadores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\trabajadores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\trabajadores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\trabajadores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\trabajadores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\trabajadores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\trabajadores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\controllers\\pagoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\controllers\\pagoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\pagos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\pagos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\pagos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\pagos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\pagos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\pagos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\pagos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\pagos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\filters\\authfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\filters\\authfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\models\\paqueteservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\models\\paqueteservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\views\\faq\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\views\\faq\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\sistemahotel\\models\\hoteldbentities1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA493BAE-08C3-43FA-BB9D-563F46A7D117}|SistemaHotel\\SistemaHotel.csproj|solutionrelative:sistemahotel\\models\\hoteldbentities1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FAQController.cs",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Controllers\\FAQController.cs",
+              "RelativeDocumentMoniker": "SistemaHotel\\Controllers\\FAQController.cs",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Controllers\\FAQController.cs",
+              "RelativeToolTip": "SistemaHotel\\Controllers\\FAQController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T23:58:40.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\PaquetesServicio\\Create.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\PaquetesServicio\\Create.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\PaquetesServicio\\Create.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\PaquetesServicio\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T23:26:26.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\PaquetesServicio\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\PaquetesServicio\\Index.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\PaquetesServicio\\Index.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\PaquetesServicio\\Index.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T23:26:18.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Web.config",
+              "RelativeDocumentMoniker": "SistemaHotel\\Web.config",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Web.config",
+              "RelativeToolTip": "SistemaHotel\\Web.config",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-08-14T01:40:24.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HotelModel.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Models\\HotelModel.edmx",
+              "RelativeDocumentMoniker": "SistemaHotel\\Models\\HotelModel.edmx",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\chris_gonzalez\\SistemaHotel\\SistemaHotel\\Models\\HotelModel.edmx [Diagram1]",
+              "RelativeToolTip": "..\\chris_gonzalez\\SistemaHotel\\SistemaHotel\\Models\\HotelModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-08-18T23:36:11.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaquetesServicioController.cs",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Controllers\\PaquetesServicioController.cs",
+              "RelativeDocumentMoniker": "SistemaHotel\\Controllers\\PaquetesServicioController.cs",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Controllers\\PaquetesServicioController.cs",
+              "RelativeToolTip": "SistemaHotel\\Controllers\\PaquetesServicioController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAnwCkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T23:26:11.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\FAQ\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\FAQ\\Index.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\FAQ\\Index.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\FAQ\\Index.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAACBjwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T23:58:50.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\PaquetesServicio\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\PaquetesServicio\\Index.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\PaquetesServicio\\Index.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\PaquetesServicio\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T23:39:53.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PaqueteServicio.cs",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Models\\PaqueteServicio.cs",
+              "RelativeDocumentMoniker": "SistemaHotel\\Models\\PaqueteServicio.cs",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Models\\PaqueteServicio.cs",
+              "RelativeToolTip": "SistemaHotel\\Models\\PaqueteServicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T23:26:04.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "HotelDBEntities1.cs",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Models\\HotelDBEntities1.cs",
+              "RelativeDocumentMoniker": "SistemaHotel\\Models\\HotelDBEntities1.cs",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Models\\HotelDBEntities1.cs",
+              "RelativeToolTip": "SistemaHotel\\Models\\HotelDBEntities1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T00:01:25.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Pagos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Pagos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Pagos\\Edit.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Pagos\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T22:58:59.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Pagos\\Create.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Pagos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Pagos\\Create.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Pagos\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T22:58:43.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Pagos\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Pagos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Pagos\\Index.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Pagos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T22:58:28.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HabitacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Controllers\\HabitacionesController.cs",
+              "RelativeDocumentMoniker": "SistemaHotel\\Controllers\\HabitacionesController.cs",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Controllers\\HabitacionesController.cs",
+              "RelativeToolTip": "SistemaHotel\\Controllers\\HabitacionesController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvwsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T21:30:57.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Pagos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Pagos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Pagos\\Delete.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Pagos\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T22:59:11.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "SistemaHotel\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "SistemaHotel\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAiwAoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T14:50:07.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TrabajadoresController.cs",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Controllers\\TrabajadoresController.cs",
+              "RelativeDocumentMoniker": "SistemaHotel\\Controllers\\TrabajadoresController.cs",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Controllers\\TrabajadoresController.cs",
+              "RelativeToolTip": "SistemaHotel\\Controllers\\TrabajadoresController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvwoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T22:38:39.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T23:05:36.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "SistemaHotel\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "SistemaHotel\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T23:07:25.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AuthFilter.cs",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Filters\\AuthFilter.cs",
+              "RelativeDocumentMoniker": "SistemaHotel\\Filters\\AuthFilter.cs",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Filters\\AuthFilter.cs",
+              "RelativeToolTip": "SistemaHotel\\Filters\\AuthFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T23:09:13.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Habitaciones\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Habitaciones\\Index.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Habitaciones\\Index.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Habitaciones\\Index.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T21:31:05.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "SistemaHotel\\App_Start\\FilterConfig.cs",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "SistemaHotel\\App_Start\\FilterConfig.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAEBVwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T23:09:22.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PagosController.cs",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Controllers\\PagosController.cs",
+              "RelativeDocumentMoniker": "SistemaHotel\\Controllers\\PagosController.cs",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Controllers\\PagosController.cs",
+              "RelativeToolTip": "SistemaHotel\\Controllers\\PagosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T22:58:14.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Reservas\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Reservas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Reservas\\Index.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Reservas\\Index.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T15:36:49.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T23:03:23.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "SistemaHotel\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "SistemaHotel\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T23:03:03.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "SistemaHotel\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "SistemaHotel\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAhwBcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T01:25:35.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Trabajadores\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Trabajadores\\Index.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Trabajadores\\Index.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Trabajadores\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T22:38:46.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Trabajadores\\Create.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Trabajadores\\Create.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Trabajadores\\Create.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Trabajadores\\Create.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAGBnwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T22:38:57.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Trabajadores\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Trabajadores\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Trabajadores\\Edit.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Trabajadores\\Edit.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAGBnwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T22:39:18.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Trabajadores\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Trabajadores\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Trabajadores\\Delete.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Trabajadores\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T22:39:33.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAABBwDkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T01:28:05.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Clientes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Clientes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Clientes\\Edit.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Clientes\\Edit.cshtml",
+              "ViewState": "AgIAAE8AAAAAAAAAAEBlwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T14:50:54.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReservasController.cs",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Controllers\\ReservasController.cs",
+              "RelativeDocumentMoniker": "SistemaHotel\\Controllers\\ReservasController.cs",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Controllers\\ReservasController.cs",
+              "RelativeToolTip": "SistemaHotel\\Controllers\\ReservasController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAhwC0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T15:36:21.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Habitaciones\\Create.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Habitaciones\\Create.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Habitaciones\\Create.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Habitaciones\\Create.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAABBwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T21:31:11.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Habitaciones\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Habitaciones\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Habitaciones\\Edit.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Habitaciones\\Edit.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAABBwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T21:31:28.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Habitaciones\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Habitaciones\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Habitaciones\\Delete.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Habitaciones\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T21:31:41.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Clientes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Clientes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Clientes\\Delete.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Clientes\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T14:51:06.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Clientes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Clientes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Clientes\\Delete.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Clientes\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T14:51:37.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "SistemaHotel\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Models\\Cliente.cs",
+              "RelativeToolTip": "SistemaHotel\\Models\\Cliente.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T14:55:53.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAEBlwAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T15:23:25.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Clientes\\Create.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Clientes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Clientes\\Create.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Clientes\\Create.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAEBlwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T14:50:31.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Reservas\\Create.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Reservas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Reservas\\Create.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Reservas\\Create.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAACBjwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T15:37:14.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Reservas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Reservas\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Reservas\\Edit.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Reservas\\Edit.cshtml",
+              "ViewState": "AgIAAEwAAAAAAAAAAABBwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T15:37:40.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Reservas\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Reservas\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Reservas\\Delete.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Reservas\\Delete.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAABBwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T15:37:50.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Clientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Clientes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Clientes\\Index.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Clientes\\Index.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAIBZwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T14:50:22.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Menu.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Home\\Menu.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Home\\Menu.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Home\\Menu.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Home\\Menu.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T01:57:37.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Content\\Site.css",
+              "RelativeDocumentMoniker": "SistemaHotel\\Content\\Site.css",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Content\\Site.css",
+              "RelativeToolTip": "SistemaHotel\\Content\\Site.css",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-14T01:43:11.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Content\\Site.css",
+              "RelativeDocumentMoniker": "SistemaHotel\\Content\\Site.css",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Content\\Site.css",
+              "RelativeToolTip": "SistemaHotel\\Content\\Site.css",
+              "ViewState": "AgIAAJcAAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-14T01:43:10.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Menu.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Home\\Menu.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Home\\Menu.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Home\\Menu.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Home\\Menu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T01:30:56.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaHotel\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "SistemaHotel\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T01:25:37.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SistemaHotel\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\regon\\OneDrive\\Escritorio\\SistemaHotel\\SistemaHotel\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SistemaHotel\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAArwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T01:21:01.207Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

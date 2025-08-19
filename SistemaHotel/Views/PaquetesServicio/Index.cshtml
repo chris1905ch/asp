@@ -1,0 +1,43 @@
+@model IEnumerable<SistemaHotel.Models.PaqueteServicio>
+@{
+    ViewBag.Title = "Paquetes de Servicios";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<div class="luxury-bg min-vh-100 p-4">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="luxury-title">Paquetes de Servicios Extras</h2>
+            <a href="@Url.Action("Create")" class="btn luxury-btn">Agregar Paquete</a>
+        </div>
+        <div class="table-responsive luxury-table">
+            <table class="table table-hover table-bordered bg-white rounded">
+                <thead class="luxury-table-head">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Descripción</th>
+                        <th>Precio</th>
+                        <th>Servicios Incluidos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                @foreach (var item in Model) {
+                    <tr>
+                        <td>@item.Nombre</td>
+                        <td>@item.Descripcion</td>
+                        <td>$@item.Precio.ToString("N2")</td>
+                        <td>
+                            @if (item.ServiciosExtra != null) {
+                                foreach (var s in item.ServiciosExtra) {
+                                    <span class="badge bg-info text-dark me-1">@s.Nombre</span>
+                                }
+                            }
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

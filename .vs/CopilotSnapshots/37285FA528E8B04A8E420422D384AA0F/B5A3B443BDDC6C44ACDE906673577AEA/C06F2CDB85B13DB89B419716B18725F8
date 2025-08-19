@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "Menú Principal";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<style>
+.full-bg-menu {
+    min-height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(120deg, #fff8f2 0%, #e7d9c4 100%);
+    z-index: -1;
+}
+.menu-center-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+</style>
+<div class="full-bg-menu"></div>
+<div class="menu-center-container">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="modern-hero p-5 mb-5 text-center">
+                    <img src="https://img.freepik.com/vector-premium/logotipo-hotel-lujo_23-2148466842.jpg" alt="Hotel de Lujo" class="modern-hero-logo mb-3" />
+                    <h1 class="display-4 mb-3 luxury-title">Bienvenido al Sistema Hotel de Lujo</h1>
+                    <p class="lead mb-4">Gestiona reservas, habitaciones, clientes y mucho más con una experiencia visual elegante y moderna.</p>
+                    <div class="d-flex flex-wrap justify-content-center gap-3 mt-4">
+                        <a href="@Url.Action("Index", "Reservas")" class="btn luxury-btn btn-lg shadow">Reservas</a>
+                        <a href="@Url.Action("Index", "Habitaciones")" class="btn luxury-btn btn-lg shadow">Habitaciones</a>
+                        <a href="@Url.Action("Index", "Clientes")" class="btn luxury-btn btn-lg shadow">Clientes</a>
+                        <a href="@Url.Action("Index", "Trabajadores")" class="btn luxury-btn btn-lg shadow">Trabajadores</a>
+                        <a href="@Url.Action("Index", "Pagos")" class="btn luxury-btn btn-lg shadow">Pagos</a>
+                        <a href="#" class="btn luxury-btn btn-lg shadow">Servicios Extra</a>
+                        <a href="#" class="btn luxury-btn btn-lg shadow">FAQ</a>
+                        <a href="@Url.Action("Index", "Dashboard")" class="btn luxury-btn btn-lg shadow">Dashboard</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- FontAwesome CDN -->
+<script src="https://kit.fontawesome.com/7e7e2e6e2e.js" crossorigin="anonymous"></script>
+<script src="~/Scripts/jquery-3.7.0.min.js"></script>
+<style>
+.modern-hero {
+    background: linear-gradient(120deg, #fff8f2 0%, #e7d9c4 100%);
+    border-radius: 32px;
+    box-shadow: 0 8px 32px 0 rgba(140, 106, 79, 0.10);
+    margin-bottom: 2.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.modern-hero-logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 16px 0 rgba(140, 106, 79, 0.15);
+}
+</style>

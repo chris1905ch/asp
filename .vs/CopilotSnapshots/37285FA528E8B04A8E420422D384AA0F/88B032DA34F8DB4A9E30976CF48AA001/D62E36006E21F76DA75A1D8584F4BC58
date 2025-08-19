@@ -1,0 +1,51 @@
+﻿@model SistemaHotel.Models.Pagos
+@{
+    ViewBag.Title = "Agregar Pago";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var metodos = new[] { "Efectivo", "Tarjeta de Crédito", "Tarjeta de Débito", "Transferencia Bancaria", "PayPal" };
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<div class="luxury-bg min-vh-100 p-4">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="luxury-title">Agregar Pago</h2>
+            <div>
+                <a href="@Url.Action("Index")" class="btn btn-outline-secondary">Volver</a>
+                <a href="@Url.Action("Menu", "Home")" class="btn btn-outline-dark ms-2">Salir</a>
+            </div>
+        </div>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    @Html.LabelFor(m => m.ReservaId)
+                    @Html.DropDownList("ReservaId", null, "Seleccione una reserva", new { @class = "form-control", required = "required" })
+                    @Html.ValidationMessageFor(m => m.ReservaId, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-6 mb-3">
+                    @Html.LabelFor(m => m.Fecha)
+                    @Html.TextBoxFor(m => m.Fecha, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date", required = "required" })
+                    @Html.ValidationMessageFor(m => m.Fecha, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-6 mb-3">
+                    @Html.LabelFor(m => m.Monto)
+                    @Html.TextBoxFor(m => m.Monto, new { @class = "form-control", type = "number", min = 0, step = "0.01", required = "required" })
+                    @Html.ValidationMessageFor(m => m.Monto, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-6 mb-3">
+                    @Html.LabelFor(m => m.Metodo)
+                    <select class="form-control" id="Metodo" name="Metodo" required>
+                        <option value="">Seleccione un método</option>
+                        @foreach (var metodo in metodos) {
+                            <option value="@metodo">@metodo</option>
+                        }
+                    </select>
+                    @Html.ValidationMessageFor(m => m.Metodo, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <button type="submit" class="btn luxury-btn">Guardar</button>
+        }
+    </div>
+</div>

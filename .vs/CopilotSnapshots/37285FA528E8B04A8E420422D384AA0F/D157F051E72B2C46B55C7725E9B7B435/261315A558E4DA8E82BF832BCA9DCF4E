@@ -1,0 +1,62 @@
+﻿@model IEnumerable<SistemaHotel.Models.FAQ>
+@{
+    ViewBag.Title = "FAQ - Preguntas Frecuentes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <h2 class="luxury-title mb-4">Asistente de Preguntas Frecuentes (FAQ)</h2>
+            <div class="card mb-4 p-4">
+                <div class="mb-3">
+                    <label for="faqChatInput" class="form-label">Haz una pregunta al asistente:</label>
+                    <div class="input-group">
+                        <input type="text" id="faqChatInput" class="form-control" placeholder="Escribe tu pregunta aquí..." autocomplete="off" />
+                        <button id="faqChatBtn" class="btn btn-primary" type="button">Preguntar</button>
+                    </div>
+                </div>
+                <div id="faqChatWindow" style="min-height:180px; max-height:300px; overflow-y:auto; background:#f8f9fa; border-radius:8px; padding:16px; margin-bottom:8px;"></div>
+            </div>
+            <h4 class="mb-3">Haz click en una pregunta:</h4>
+            <ul class="list-group mb-4" id="faqQuestionList">
+                @foreach (var item in Model) {
+                    <li class="list-group-item faq-question" data-question="@item.Pregunta" style="cursor:pointer;">@item.Pregunta</li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+function appendChat(role, text) {
+    var chat = $('#faqChatWindow');
+    var align = role === 'user' ? 'text-end' : 'text-start';
+    var color = role === 'user' ? 'bg-primary text-white' : 'bg-light text-dark';
+    var name = role === 'user' ? 'Tú' : 'Asistente';
+    chat.append('<div class="mb-2 '+align+'"><span class="badge '+color+'">'+name+':</span> <span>'+text+'</span></div>');
+    chat.scrollTop(chat[0].scrollHeight);
+}
+$(document).ready(function() {
+    $('#faqChatBtn').click(function() {
+        var question = $('#faqChatInput').val();
+        if (!question) return;
+        appendChat('user', question);
+        $('#faqChatInput').val('');
+        $.post('@Url.Action("Chat", "FAQ")', { question: question }, function(data) {
+            appendChat('bot', data.answer);
+        });
+    });
+    $('#faqChatInput').keypress(function(e) {
+        if (e.which == 13) $('#faqChatBtn').click();
+    });
+    // Click en pregunta de la lista (delegado para asegurar funcionamiento)
+    $('#faqQuestionList').on('click', '.faq-question', function() {
+        var question = $(this).data('question');
+        appendChat('user', question);
+        $.post('@Url.Action("Chat", "FAQ")', { question: question }, function(data) {
+            appendChat('bot', data.answer);
+        });
+    });
+});
+</script>

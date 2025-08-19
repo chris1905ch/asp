@@ -1,0 +1,55 @@
+﻿@model IEnumerable<SistemaHotel.Models.Reservas>
+@{
+    ViewBag.Title = "Reservas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<div class="luxury-bg min-vh-100 p-4">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="luxury-title">Reservas</h2>
+            <div>
+                <a href="@Url.Action("Create")" class="btn luxury-btn">Agregar Reserva</a>
+                <a href="@Url.Action("Menu", "Home")" class="btn btn-outline-dark ms-2">Salir</a>
+            </div>
+        </div>
+        <div class="table-responsive luxury-table">
+            <table class="table table-hover table-bordered bg-white rounded">
+                <thead class="luxury-table-head">
+                    <tr>
+                        <th>Cliente</th>
+                        <th>Habitación</th>
+                        <th>Ingreso</th>
+                        <th>Salida</th>
+                        <th>Estado</th>
+                        <th>Adultos</th>
+                        <th>Niños</th>
+                        <th>Monto Estimado</th>
+                        <th>Monto Pagado</th>
+                        <th style="width:120px;">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                @foreach (var item in Model) {
+                    <tr>
+                        <td>@(item.Clientes != null ? item.Clientes.Nombres + " " + item.Clientes.Apellidos : "Sin cliente")</td>
+                        <td>@(item.Habitaciones != null ? item.Habitaciones.Numero : "Sin habitación")</td>
+                        <td>@item.FechaIngreso.ToShortDateString()</td>
+                        <td>@item.FechaSalida.ToShortDateString()</td>
+                        <td>@item.Estado</td>
+                        <td>@item.Adultos</td>
+                        <td>@item.Ninos</td>
+                        <td>$@item.MontoEstimado.ToString("N2")</td>
+                        <td>$@item.MontoPagado.ToString("N2")</td>
+                        <td>
+                            <a href="@Url.Action("Edit", new { id = item.Id })" class="btn btn-sm btn-outline-primary">Editar</a>
+                            <a href="@Url.Action("Delete", new { id = item.Id })" class="btn btn-sm btn-outline-danger">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

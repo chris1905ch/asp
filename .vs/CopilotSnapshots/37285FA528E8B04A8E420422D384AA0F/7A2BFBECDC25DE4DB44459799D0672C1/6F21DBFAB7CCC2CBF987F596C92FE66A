@@ -1,0 +1,53 @@
+﻿@model IEnumerable<SistemaHotel.Models.Trabajadores>
+@{
+    ViewBag.Title = "Trabajadores";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<div class="luxury-bg min-vh-100 p-4">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="luxury-title">Trabajadores</h2>
+            <div>
+                <a href="@Url.Action("Create")" class="btn luxury-btn">Agregar Trabajador</a>
+                <a href="@Url.Action("Menu", "Home")" class="btn btn-outline-dark ms-2">Salir</a>
+            </div>
+        </div>
+        <div class="table-responsive luxury-table">
+            <table class="table table-hover table-bordered bg-white rounded">
+                <thead class="luxury-table-head">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>DUI/NIT</th>
+                        <th>Teléfono</th>
+                        <th>Email</th>
+                        <th>Cargo</th>
+                        <th>Salario</th>
+                        <th>Activo</th>
+                        <th style="width:120px;">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                @foreach (var item in Model) {
+                    <tr>
+                        <td>@item.Nombres</td>
+                        <td>@item.Apellidos</td>
+                        <td>@item.DUI_NIT</td>
+                        <td>@item.Telefono</td>
+                        <td>@item.Email</td>
+                        <td>@item.Cargo</td>
+                        <td>$@item.Salario.ToString("N2")</td>
+                        <td>@(item.Activo ? "Sí" : "No")</td>
+                        <td>
+                            <a href="@Url.Action("Edit", new { id = item.Id })" class="btn btn-sm btn-outline-primary">Editar</a>
+                            <a href="@Url.Action("Delete", new { id = item.Id })" class="btn btn-sm btn-outline-danger">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

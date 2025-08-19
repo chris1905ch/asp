@@ -1,0 +1,118 @@
+@using System.Collections.Generic
+@using System.Dynamic
+@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var reservasPorMes = ViewBag.ReservasPorMes as IEnumerable<object>;
+    var pagosPorMes = ViewBag.PagosPorMes as IEnumerable<object>;
+    int ocupacionActual = ViewBag.OcupacionActual;
+    int totalHabitaciones = ViewBag.TotalHabitaciones;
+    // Helper para obtener propiedades dinámicas
+    int GetPropInt(object obj, string prop) => (int)obj.GetType().GetProperty(prop).GetValue(obj, null);
+    decimal GetPropDecimal(object obj, string prop) => (decimal)obj.GetType().GetProperty(prop).GetValue(obj, null);
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<div class="luxury-bg min-vh-100 p-4">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="luxury-title">Dashboard de Estadísticas</h2>
+            <a href="@Url.Action("Menu", "Home")" class="btn btn-outline-dark ms-2">Salir</a>
+        </div>
+        <div class="row mb-4">
+            <div class="col-md-4 mb-3">
+                <div class="card shadow text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Ocupación Actual</h5>
+                        <h2 class="text-primary">@ocupacionActual / @totalHabitaciones</h2>
+                        <div class="progress mt-2" style="height: 18px;">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: @(totalHabitaciones > 0 ? (ocupacionActual * 100 / totalHabitaciones) : 0)%"></div>
+                        </div>
+                        <small class="text-muted">Habitaciones ocupadas hoy</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card shadow text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Reservas Últimos 12 Meses</h5>
+                        <canvas id="reservasMesChart" height="120"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card shadow text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Ingresos Últimos 12 Meses</h5>
+                        <canvas id="pagosMesChart" height="120"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+// Datos para Reservas por Mes
+var reservasLabels = [];
+var reservasData = [];
+@if (reservasPorMes != null)
+{
+    foreach (var r in reservasPorMes)
+    {
+        var year = (int)r.GetType().GetProperty("Year").GetValue(r, null);
+        var month = (int)r.GetType().GetProperty("Month").GetValue(r, null);
+        var count = (int)r.GetType().GetProperty("Count").GetValue(r, null);
+        <text>reservasLabels.push('@(month.ToString("00") + "/" + year)'); reservasData.push(@count);</text>
+    }
+}
+// Datos para Pagos por Mes
+var pagosLabels = [];
+var pagosData = [];
+@if (pagosPorMes != null)
+{
+    foreach (var p in pagosPorMes)
+    {
+        var year = (int)p.GetType().GetProperty("Year").GetValue(p, null);
+        var month = (int)p.GetType().GetProperty("Month").GetValue(p, null);
+        var total = (decimal)p.GetType().GetProperty("Total").GetValue(p, null);
+        <text>pagosLabels.push('@(month.ToString("00") + "/" + year)'); pagosData.push(@total);</text>
+    }
+}
+// Gráfica de Reservas por Mes
+new Chart(document.getElementById('reservasMesChart').getContext('2d'), {
+    type: 'bar',
+    data: {
+        labels: reservasLabels,
+        datasets: [{
+            label: 'Reservas',
+            data: reservasData,
+            backgroundColor: '#8C6A4F',
+            borderRadius: 6
+        }]
+    },
+    options: {
+        plugins: { legend: { display: false } },
+        scales: { y: { beginAtZero: true } }
+    }
+});
+// Gráfica de Ingresos por Mes
+new Chart(document.getElementById('pagosMesChart').getContext('2d'), {
+    type: 'line',
+    data: {
+        labels: pagosLabels,
+        datasets: [{
+            label: 'Ingresos ($)',
+            data: pagosData,
+            borderColor: '#4F8C6A',
+            backgroundColor: 'rgba(79,140,106,0.1)',
+            fill: true,
+            tension: 0.3
+        }]
+    },
+    options: {
+        plugins: { legend: { display: false } },
+        scales: { y: { beginAtZero: true } }
+    }
+});
+</script>

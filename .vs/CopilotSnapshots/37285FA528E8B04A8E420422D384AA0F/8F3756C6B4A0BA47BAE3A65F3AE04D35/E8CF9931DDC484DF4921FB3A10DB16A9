@@ -1,0 +1,47 @@
+﻿@model IEnumerable<SistemaHotel.Models.FAQ>
+@{
+    ViewBag.Title = "FAQ - Preguntas Frecuentes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <h2 class="luxury-title mb-4">Preguntas Frecuentes (FAQ)</h2>
+            <div class="card mb-4 p-4">
+                <div class="mb-3">
+                    <label for="faqChatInput" class="form-label">Haz una pregunta:</label>
+                    <div class="input-group">
+                        <input type="text" id="faqChatInput" class="form-control" placeholder="Escribe tu pregunta aquí..." />
+                        <button id="faqChatBtn" class="btn btn-primary" type="button">Preguntar</button>
+                    </div>
+                </div>
+                <div id="faqChatResponse" class="alert alert-info d-none"></div>
+            </div>
+            <h4 class="mb-3">Ejemplos de preguntas:</h4>
+            <ul class="list-group mb-4">
+                @foreach (var item in Model) {
+                    <li class="list-group-item">
+                        <strong>@item.Pregunta</strong><br />
+                        <span class="text-muted">@item.Respuesta</span>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+$(function() {
+    $('#faqChatBtn').click(function() {
+        var question = $('#faqChatInput').val();
+        if (!question) return;
+        $.post('@Url.Action("Chat", "FAQ")', { question: question }, function(data) {
+            $('#faqChatResponse').removeClass('d-none').text(data.answer);
+        });
+    });
+    $('#faqChatInput').keypress(function(e) {
+        if (e.which == 13) $('#faqChatBtn').click();
+    });
+});
+</script>

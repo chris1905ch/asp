@@ -1,0 +1,103 @@
+﻿@model SistemaHotel.Models.Trabajadores
+@{
+    ViewBag.Title = "Agregar Trabajador";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var cargos = new[] { "Recepcionista", "Gerente", "Limpieza", "Cocinero", "Botones", "Seguridad", "Mantenimiento", "Administrador" };
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<script>
+function formatTelefono(input) {
+    let value = input.value.replace(/[^0-9]/g, '');
+    if (value.length > 4) {
+        value = value.substring(0, 4) + '-' + value.substring(4, 8);
+    }
+    input.value = value.substring(0, 9);
+}
+function onlyNumberKey(evt) {
+    var charCode = (evt.which) ? evt.which : evt.keyCode;
+    // Permitir solo números y control para backspace
+    if (charCode > 31 && (charCode < 48 || charCode > 57))
+        return false;
+    return true;
+}
+function formatDUI(input) {
+    let value = input.value.replace(/[^0-9]/g, '');
+    if (value.length > 8) {
+        value = value.substring(0, 8) + '-' + value.substring(8, 9);
+    }
+    input.value = value.substring(0, 10);
+}
+function onlyNumberKeyDUI(evt) {
+    var charCode = (evt.which) ? evt.which : evt.keyCode;
+    // Permitir solo números y control para backspace
+    if (charCode > 31 && (charCode < 48 || charCode > 57))
+        return false;
+    return true;
+}
+</script>
+<div class="luxury-bg min-vh-100 p-4">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="luxury-title">Agregar Trabajador</h2>
+            <div>
+                <a href="@Url.Action("Index")" class="btn btn-outline-secondary">Volver</a>
+                <a href="@Url.Action("Menu", "Home")" class="btn btn-outline-dark ms-2">Salir</a>
+            </div>
+        </div>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    @Html.LabelFor(m => m.Nombres)
+                    @Html.TextBoxFor(m => m.Nombres, new { @class = "form-control", maxlength = 100, required = "required" })
+                    @Html.ValidationMessageFor(m => m.Nombres, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-6 mb-3">
+                    @Html.LabelFor(m => m.Apellidos)
+                    @Html.TextBoxFor(m => m.Apellidos, new { @class = "form-control", maxlength = 100, required = "required" })
+                    @Html.ValidationMessageFor(m => m.Apellidos, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-6 mb-3">
+                    @Html.LabelFor(m => m.DUI_NIT)
+                    @Html.TextBoxFor(m => m.DUI_NIT, new { @class = "form-control", maxlength = 10, minlength = 10, required = "required", oninput = "formatDUI(this)", onkeypress = "return onlyNumberKeyDUI(event)", pattern = "[0-9]{8}-[0-9]{1}" })
+                    <small class="form-text text-muted">Formato: 00000000-0</small>
+                    @Html.ValidationMessageFor(m => m.DUI_NIT, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-6 mb-3">
+                    @Html.LabelFor(m => m.Telefono)
+                    @Html.TextBoxFor(m => m.Telefono, new { @class = "form-control", maxlength = 9, minlength = 9, required = "required", oninput = "formatTelefono(this)", onkeypress = "return onlyNumberKey(event)", pattern = "[0-9]{4}-[0-9]{4}" })
+                    <small class="form-text text-muted">Formato: 0000-0000</small>
+                    @Html.ValidationMessageFor(m => m.Telefono, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-6 mb-3">
+                    @Html.LabelFor(m => m.Email)
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control", maxlength = 100 })
+                    @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-6 mb-3">
+                    @Html.LabelFor(m => m.Cargo)
+                    <select class="form-control" id="Cargo" name="Cargo" required>
+                        <option value="">Seleccione un cargo</option>
+                        @foreach (var cargo in cargos) {
+                            <option value="@cargo">@cargo</option>
+                        }
+                    </select>
+                    @Html.ValidationMessageFor(m => m.Cargo, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-6 mb-3">
+                    @Html.LabelFor(m => m.Salario)
+                    @Html.TextBoxFor(m => m.Salario, new { @class = "form-control", type = "number", min = 0, step = "0.01", required = "required" })
+                    @Html.ValidationMessageFor(m => m.Salario, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-6 mb-3">
+                    @Html.LabelFor(m => m.Activo)
+                    @Html.DropDownListFor(m => m.Activo, new SelectList(new[] { new { Value = true, Text = "Sí" }, new { Value = false, Text = "No" } }, "Value", "Text"), new { @class = "form-control", required = "required" })
+                    @Html.ValidationMessageFor(m => m.Activo, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <button type="submit" class="btn luxury-btn">Guardar</button>
+        }
+    </div>
+</div>

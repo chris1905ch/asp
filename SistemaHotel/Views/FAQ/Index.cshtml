@@ -1,0 +1,46 @@
+@model IEnumerable<SistemaHotel.Models.FAQ>
+@{
+    ViewBag.Title = "FAQ - Preguntas Frecuentes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <h2 class="luxury-title mb-4">Asistente de Preguntas Frecuentes (FAQ)</h2>
+            <div class="card mb-4 p-4">
+                <div id="faqChatWindow" style="min-height:180px; max-height:300px; overflow-y:auto; background:#f8f9fa; border-radius:8px; padding:16px; margin-bottom:8px;"></div>
+            </div>
+            <h4 class="mb-3">Haz click en una pregunta:</h4>
+            <ul class="list-group mb-4" id="faqQuestionList">
+                @foreach (var item in Model) {
+                    <li class="list-group-item faq-question" style="cursor:pointer;" data-question="@item.Pregunta" data-answer="@item.Respuesta">@item.Pregunta</li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+function appendChat(role, text) {
+    var chat = document.getElementById('faqChatWindow');
+    var align = role === 'user' ? 'text-end' : 'text-start';
+    var color = role === 'user' ? 'bg-primary text-white' : 'bg-light text-dark';
+    var name = role === 'user' ? 'Tú' : 'Asistente';
+    var div = document.createElement('div');
+    div.className = 'mb-2 ' + align;
+    div.innerHTML = '<span class="badge ' + color + '">' + name + ':</span> <span>' + text + '</span>';
+    chat.appendChild(div);
+    chat.scrollTop = chat.scrollHeight;
+}
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('faqQuestionList').addEventListener('click', function(e) {
+        if (e.target && e.target.classList.contains('faq-question')) {
+            var question = e.target.getAttribute('data-question');
+            var answer = e.target.getAttribute('data-answer');
+            appendChat('user', question);
+            appendChat('bot', answer);
+        }
+    });
+});
+</script>

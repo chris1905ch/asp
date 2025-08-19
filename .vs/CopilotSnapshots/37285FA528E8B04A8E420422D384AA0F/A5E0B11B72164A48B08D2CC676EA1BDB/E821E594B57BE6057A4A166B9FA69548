@@ -1,0 +1,78 @@
+﻿@{
+    ViewBag.Title = "Menú Principal";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<div class="luxury-bg min-vh-100">
+    <div class="d-flex">
+        <!-- Sidebar -->
+        <nav id="sidebar" class="bg-white shadow-lg luxury-sidebar">
+            <div class="sidebar-header text-center py-4" style="font-family: 'Playfair Display', serif; color: #8C6A4F; font-size: 1.5rem;">
+                <b>Hotel de Lujo</b>
+            </div>
+            <ul class="list-unstyled components">
+                <li><a href="#">Reservas</a></li>
+                <li><a href="#">Habitaciones</a></li>
+                <li><a href="#">Clientes</a></li>
+                <li><a href="#">Trabajadores</a></li>
+                <li><a href="#">Pagos</a></li>
+                <li><a href="#">Servicios Extra</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="/Login/Logout">Cerrar sesión</a></li>
+            </ul>
+        </nav>
+        <!-- Page Content -->
+        <div class="flex-grow-1 p-4">
+            <button type="button" id="sidebarCollapse" class="btn luxury-btn mb-3 d-md-none">
+                &#9776; Menú
+            </button>
+            <h2 class="mb-4" style="color: #8C6A4F; font-family: 'Playfair Display', serif;">Bienvenido al Sistema Hotel</h2>
+            <p class="lead">Seleccione una opción del menú para comenzar.</p>
+        </div>
+    </div>
+</div>
+<script src="~/Scripts/jquery-3.7.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#sidebarCollapse').on('click', function () {
+            $('#sidebar').toggleClass('active');
+        });
+    });
+</script>
+<style>
+.luxury-sidebar {
+    min-width: 220px;
+    max-width: 220px;
+    min-height: 100vh;
+    background: #fff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 2px 0 16px 0 rgba(140, 106, 79, 0.08);
+}
+.luxury-sidebar .components li a {
+    color: #8C6A4F;
+    font-weight: 500;
+    padding: 12px 24px;
+    display: block;
+    border-radius: 8px;
+    transition: background 0.2s, color 0.2s;
+}
+.luxury-sidebar .components li a:hover {
+    background: #e7d9c4;
+    color: #6d4c2c;
+}
+@media (max-width: 768px) {
+    #sidebar {
+        position: fixed;
+        left: -220px;
+        top: 0;
+        height: 100vh;
+        z-index: 999;
+        transition: left 0.3s;
+    }
+    #sidebar.active {
+        left: 0;
+    }
+}
+</style>

@@ -1,0 +1,108 @@
+﻿@{
+    ViewBag.Title = "Menú Principal";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<div class="luxury-bg min-vh-100 d-flex align-items-center justify-content-center">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="modern-hero p-5 mb-5 text-center">
+                    <img src="https://img.freepik.com/vector-premium/logotipo-hotel-lujo_23-2148466842.jpg" alt="Hotel de Lujo" class="modern-hero-logo mb-3" />
+                    <h1 class="display-4 mb-3 luxury-title">Bienvenido al Sistema Hotel de Lujo</h1>
+                    <p class="lead mb-4">Gestiona reservas, habitaciones, clientes y mucho más con una experiencia visual elegante y moderna.</p>
+                    <div class="d-flex flex-wrap justify-content-center gap-3 mt-4">
+                        <a href="#" class="btn luxury-btn btn-lg shadow">Reservas</a>
+                        <a href="#" class="btn luxury-btn btn-lg shadow">Habitaciones</a>
+                        <a href="@Url.Action("Index", "Clientes")" class="btn luxury-btn btn-lg shadow">Clientes</a>
+                        <a href="#" class="btn luxury-btn btn-lg shadow">Trabajadores</a>
+                        <a href="#" class="btn luxury-btn btn-lg shadow">Pagos</a>
+                        <a href="#" class="btn luxury-btn btn-lg shadow">Servicios Extra</a>
+                        <a href="#" class="btn luxury-btn btn-lg shadow">FAQ</a>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="luxury-card modern-card">
+                            <i class="fas fa-calendar-check luxury-card-icon"></i>
+                            <div class="luxury-card-title">Reservas</div>
+                            <div class="luxury-card-desc">Gestiona y consulta las reservas de huéspedes.</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="luxury-card modern-card">
+                            <i class="fas fa-bed luxury-card-icon"></i>
+                            <div class="luxury-card-title">Habitaciones</div>
+                            <div class="luxury-card-desc">Administra el estado y detalles de las habitaciones.</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="luxury-card modern-card">
+                            <i class="fas fa-user luxury-card-icon"></i>
+                            <div class="luxury-card-title">Clientes</div>
+                            <div class="luxury-card-desc">Visualiza y edita la información de los clientes.</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="luxury-card modern-card">
+                            <i class="fas fa-users-cog luxury-card-icon"></i>
+                            <div class="luxury-card-title">Trabajadores</div>
+                            <div class="luxury-card-desc">Gestiona el personal y sus roles.</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="luxury-card modern-card">
+                            <i class="fas fa-credit-card luxury-card-icon"></i>
+                            <div class="luxury-card-title">Pagos</div>
+                            <div class="luxury-card-desc">Controla los pagos y facturación.</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="luxury-card modern-card">
+                            <i class="fas fa-concierge-bell luxury-card-icon"></i>
+                            <div class="luxury-card-title">Servicios Extra</div>
+                            <div class="luxury-card-desc">Ofrece y administra servicios adicionales.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- FontAwesome CDN -->
+<script src="https://kit.fontawesome.com/7e7e2e6e2e.js" crossorigin="anonymous"></script>
+<script src="~/Scripts/jquery-3.7.0.min.js"></script>
+<style>
+.modern-hero {
+    background: linear-gradient(120deg, #fff8f2 0%, #e7d9c4 100%);
+    border-radius: 32px;
+    box-shadow: 0 8px 32px 0 rgba(140, 106, 79, 0.10);
+    margin-bottom: 2.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.modern-hero-logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 16px 0 rgba(140, 106, 79, 0.15);
+}
+.modern-card {
+    border: 2px solid #e7d9c4;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 2px 12px 0 rgba(140, 106, 79, 0.10);
+    padding: 2rem 1.2rem 1.2rem 1.2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    transition: transform 0.2s, box-shadow 0.2s, border 0.2s;
+    cursor: pointer;
+}
+.modern-card:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 8px 32px 0 rgba(140, 106, 79, 0.18);
+    border: 2px solid #8C6A4F;
+}
+</style>

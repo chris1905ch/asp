@@ -1,0 +1,50 @@
+﻿@model SistemaHotel.Models.Reservas
+@{
+    ViewBag.Title = "Eliminar Reserva";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+</head>
+<body>
+<div class="luxury-bg min-vh-100 p-4">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="luxury-title">Eliminar Reserva</h2>
+            <a href="@Url.Action("Index")" class="btn btn-outline-secondary">Volver</a>
+        </div>
+        <div class="alert alert-warning mb-4">¿Estás seguro que deseas eliminar esta reserva?</div>
+        <dl class="row">
+            <dt class="col-sm-3">Cliente</dt>
+            <dd class="col-sm-9">@Model.Clientes?.Nombres @Model.Clientes?.Apellidos</dd>
+            <dt class="col-sm-3">Habitación</dt>
+            <dd class="col-sm-9">@Model.Habitaciones?.Numero</dd>
+            <dt class="col-sm-3">Ingreso</dt>
+            <dd class="col-sm-9">@Model.FechaIngreso.ToShortDateString()</dd>
+            <dt class="col-sm-3">Salida</dt>
+            <dd class="col-sm-9">@Model.FechaSalida.ToShortDateString()</dd>
+            <dt class="col-sm-3">Estado</dt>
+            <dd class="col-sm-9">@Model.Estado</dd>
+            <dt class="col-sm-3">Adultos</dt>
+            <dd class="col-sm-9">@Model.Adultos</dd>
+            <dt class="col-sm-3">Niños</dt>
+            <dd class="col-sm-9">@Model.Ninos</dd>
+            <dt class="col-sm-3">Monto Estimado</dt>
+            <dd class="col-sm-9">$@Model.MontoEstimado.ToString("N2")</dd>
+            <dt class="col-sm-3">Monto Pagado</dt>
+            <dd class="col-sm-9">$@Model.MontoPagado.ToString("N2")</dd>
+        </dl>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            <button type="submit" class="btn btn-danger">Eliminar</button>
+        }
+    </div>
+</div>
+</body>
+</html>

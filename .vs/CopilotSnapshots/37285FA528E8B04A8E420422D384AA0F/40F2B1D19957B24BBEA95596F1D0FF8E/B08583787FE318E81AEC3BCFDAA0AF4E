@@ -1,0 +1,45 @@
+﻿@model SistemaHotel.Models.Habitaciones
+@{
+    ViewBag.Title = "Agregar Habitación";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<div class="luxury-bg min-vh-100 p-4">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="luxury-title">Agregar Habitación</h2>
+            <div>
+                <a href="@Url.Action("Index")" class="btn btn-outline-secondary">Volver</a>
+                <a href="@Url.Action("Menu", "Home")" class="btn btn-outline-dark ms-2">Salir</a>
+            </div>
+        </div>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    @Html.LabelFor(m => m.Numero)
+                    @Html.TextBoxFor(m => m.Numero, new { @class = "form-control", maxlength = 10, required = "required" })
+                    @Html.ValidationMessageFor(m => m.Numero, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-6 mb-3">
+                    @Html.LabelFor(m => m.TipoId, "Tipo de Habitación")
+                    @Html.DropDownList("TipoId", ViewBag.TipoId as SelectList, "Seleccione un tipo", new { @class = "form-control", required = "required" })
+                    @Html.ValidationMessageFor(m => m.TipoId, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-6 mb-3">
+                    @Html.LabelFor(m => m.Piso)
+                    @Html.TextBoxFor(m => m.Piso, new { @class = "form-control", type = "number", min = 0, required = "required" })
+                    @Html.ValidationMessageFor(m => m.Piso, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-6 mb-3">
+                    @Html.LabelFor(m => m.Estado)
+                    @Html.TextBoxFor(m => m.Estado, new { @class = "form-control", maxlength = 30, required = "required" })
+                    @Html.ValidationMessageFor(m => m.Estado, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <button type="submit" class="btn luxury-btn">Guardar</button>
+        }
+    </div>
+</div>

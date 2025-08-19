@@ -1,0 +1,48 @@
+﻿using System.Collections.Generic;
+using System.Web.Mvc;
+using SistemaHotel.Models;
+using System.Linq;
+
+namespace SistemaHotel.Controllers
+{
+    public class PaquetesServicioController : Controller
+    {
+        private HotelDBEntities1 db = new HotelDBEntities1();
+
+        public ActionResult Index()
+        {
+            var paquetes = db.PaqueteServicio.ToList();
+            return View(paquetes);
+        }
+
+        public ActionResult Create()
+        {
+            ViewBag.Servicios = new MultiSelectList(db.ServiciosExtra, "Id", "Nombre");
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(PaqueteServicio paquete, int[] serviciosSeleccionados)
+        {
+            if (ModelState.IsValid)
+            {
+                paquete.ServiciosExtra = new List<ServiciosExtra>();
+                if (serviciosSeleccionados != null)
+                {
+                    foreach (var id in serviciosSeleccionados)
+                    {
+                        var servicio = db.ServiciosExtra.Find(id);
+                        if (servicio != null)
+                            paquete.ServiciosExtra.Add(servicio);
+                    }
+                }
+                db.PaqueteServicio.Add(paquete);
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            ViewBag.Servicios = new MultiSelectList(db.ServiciosExtra, "Id", "Nombre", serviciosSeleccionados);
+            return View(paquete);
+        }
+    }
+}

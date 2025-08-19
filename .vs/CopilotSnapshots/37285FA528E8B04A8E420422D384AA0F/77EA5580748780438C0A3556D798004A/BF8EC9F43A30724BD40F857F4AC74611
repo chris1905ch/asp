@@ -1,0 +1,37 @@
+﻿@model SistemaHotel.Models.Cliente
+@{
+    ViewBag.Title = "Eliminar Cliente";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<div class="luxury-bg min-vh-100 p-4">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="luxury-title">Eliminar Cliente</h2>
+            <a href="@Url.Action("Index")" class="btn btn-outline-secondary">Volver</a>
+        </div>
+        <div class="alert alert-warning mb-4">¿Estás seguro que deseas eliminar este cliente?</div>
+        <dl class="row">
+            <dt class="col-sm-3">Nombre</dt>
+            <dd class="col-sm-9">@Model.Nombres</dd>
+            <dt class="col-sm-3">Apellido</dt>
+            <dd class="col-sm-9">@Model.Apellidos</dd>
+            <dt class="col-sm-3">Documento</dt>
+            <dd class="col-sm-9">@Model.Documento</dd>
+            <dt class="col-sm-3">Teléfono</dt>
+            <dd class="col-sm-9">@Model.Telefono</dd>
+            <dt class="col-sm-3">Email</dt>
+            <dd class="col-sm-9">@Model.Email</dd>
+            <dt class="col-sm-3">País</dt>
+            <dd class="col-sm-9">@Model.Pais</dd>
+            <dt class="col-sm-3">Notas</dt>
+            <dd class="col-sm-9">@Model.Notas</dd>
+        </dl>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            <button type="submit" class="btn btn-danger">Eliminar</button>
+        }
+    </div>
+</div>

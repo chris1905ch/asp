@@ -1,0 +1,91 @@
+﻿@{
+    ViewBag.Title = "Menú Principal";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<div class="luxury-bg min-vh-100">
+    <div class="d-flex flex-column flex-md-row">
+        <!-- Sidebar -->
+        <nav id="sidebar" class="luxury-sidebar shadow-lg">
+            <div class="sidebar-header text-center py-4">
+                <img src="https://img.freepik.com/vector-premium/logotipo-hotel-lujo_23-2148466842.jpg" alt="Hotel de Lujo" class="img-fluid mb-2 luxury-logo" />
+                <div class="luxury-title">Hotel de Lujo</div>
+            </div>
+            <ul class="list-unstyled components mt-4">
+                <li><a href="#" class="luxury-link"><i class="fas fa-calendar-check luxury-icon"></i> Reservas</a></li>
+                <li><a href="#" class="luxury-link"><i class="fas fa-bed luxury-icon"></i> Habitaciones</a></li>
+                <li><a href="#" class="luxury-link"><i class="fas fa-user luxury-icon"></i> Clientes</a></li>
+                <li><a href="#" class="luxury-link"><i class="fas fa-users-cog luxury-icon"></i> Trabajadores</a></li>
+                <li><a href="#" class="luxury-link"><i class="fas fa-credit-card luxury-icon"></i> Pagos</a></li>
+                <li><a href="#" class="luxury-link"><i class="fas fa-concierge-bell luxury-icon"></i> Servicios Extra</a></li>
+                <li><a href="#" class="luxury-link"><i class="fas fa-question luxury-icon"></i> FAQ</a></li>
+                <li><a href="/Login/Logout" class="luxury-link"><i class="fas fa-sign-out-alt luxury-icon"></i> Cerrar sesión</a></li>
+            </ul>
+        </nav>
+        <!-- Page Content -->
+        <div class="flex-grow-1 p-4 luxury-content">
+            <button type="button" id="sidebarCollapse" class="btn luxury-btn mb-3 d-md-none">
+                <i class="fas fa-bars"></i> Menú
+            </button>
+            <div class="welcome-box p-4 mb-4">
+                <h2 class="mb-2 luxury-title">Bienvenido al Sistema Hotel</h2>
+                <p class="lead">Disfruta de una experiencia de gestión elegante y eficiente. Selecciona una opción del menú para comenzar.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="luxury-card">
+                        <i class="fas fa-calendar-check luxury-card-icon"></i>
+                        <div class="luxury-card-title">Reservas</div>
+                        <div class="luxury-card-desc">Gestiona y consulta las reservas de huéspedes.</div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="luxury-card">
+                        <i class="fas fa-bed luxury-card-icon"></i>
+                        <div class="luxury-card-title">Habitaciones</div>
+                        <div class="luxury-card-desc">Administra el estado y detalles de las habitaciones.</div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="luxury-card">
+                        <i class="fas fa-user luxury-card-icon"></i>
+                        <div class="luxury-card-title">Clientes</div>
+                        <div class="luxury-card-desc">Visualiza y edita la información de los clientes.</div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="luxury-card">
+                        <i class="fas fa-users-cog luxury-card-icon"></i>
+                        <div class="luxury-card-title">Trabajadores</div>
+                        <div class="luxury-card-desc">Gestiona el personal y sus roles.</div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="luxury-card">
+                        <i class="fas fa-credit-card luxury-card-icon"></i>
+                        <div class="luxury-card-title">Pagos</div>
+                        <div class="luxury-card-desc">Controla los pagos y facturación.</div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="luxury-card">
+                        <i class="fas fa-concierge-bell luxury-card-icon"></i>
+                        <div class="luxury-card-title">Servicios Extra</div>
+                        <div class="luxury-card-desc">Ofrece y administra servicios adicionales.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- FontAwesome CDN -->
+<script src="https://kit.fontawesome.com/7e7e2e6e2e.js" crossorigin="anonymous"></script>
+<script src="~/Scripts/jquery-3.7.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#sidebarCollapse').on('click', function () {
+            $('#sidebar').toggleClass('active');
+        });
+    });
+</script>

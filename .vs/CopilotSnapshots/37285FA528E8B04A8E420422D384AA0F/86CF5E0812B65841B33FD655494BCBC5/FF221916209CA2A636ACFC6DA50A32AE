@@ -1,0 +1,73 @@
+﻿@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<style>
+.full-bg-login {
+    min-height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(rgba(248,245,240,0.7), rgba(231,217,196,0.7)), url('https://upload.wikimedia.org/wikipedia/commons/4/42/Hilton_SLV.jpg') center center/cover no-repeat;
+}
+.login-center-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-card {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(140, 106, 79, 0.10);
+    background: #fff;
+    padding: 2.5rem 2rem 2rem 2rem;
+}
+.luxury-title-login {
+    font-family: 'Playfair Display', serif;
+    color: #8C6A4F;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+.luxury-btn {
+    background: #8C6A4F;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+.luxury-btn:hover {
+    background: #6d4c2c;
+}
+</style>
+<div class="full-bg-login"></div>
+<div class="login-center-container">
+    <div class="login-card">
+        <h2 class="text-center luxury-title-login">Hotel Hilton</h2>
+        @if (ViewBag.Error != null)
+        {
+            <div class="alert alert-danger">@ViewBag.Error</div>
+        }
+        <form method="post" autocomplete="off">
+            <div class="form-group mb-3 align-content-center">
+                <label for="usuario">Rol</label>
+                <select class="form-control" id="usuario" name="usuario" required>
+                    <option value="">Seleccione un rol</option>
+                    <option value="admin">Administrador</option>
+                    <option value="trabajador">Trabajador</option>
+                </select>
+            </div>
+            <div class="form-group mb-3">
+                <label for="password">Contraseña</label>
+                <input type="password" class="form-control" id="password" name="password" required placeholder="Ingrese su contraseña" minlength="6" maxlength="20" />
+            </div>
+            <button type="submit" class="btn btn-block luxury-btn w-100">Ingresar</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,47 @@
+@model IEnumerable<SistemaHotel.Models.Habitaciones>
+@{
+    ViewBag.Title = "Habitaciones";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<div class="luxury-bg min-vh-100 p-4">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="luxury-title">Habitaciones</h2>
+            <div>
+                <a href="@Url.Action("Create")" class="btn luxury-btn">Agregar Habitación</a>
+                <a href="@Url.Action("Menu", "Home")" class="btn btn-outline-dark ms-2">Salir</a>
+            </div>
+        </div>
+        <div class="table-responsive luxury-table">
+            <table class="table table-hover table-bordered bg-white rounded">
+                <thead class="luxury-table-head">
+                    <tr>
+                        <th>Número</th>
+                        <th>Tipo</th>
+                        <th>Piso</th>
+                        <th>Precio</th>
+                        <th>Estado</th>
+                        <th style="width:120px;">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                @foreach (var item in Model) {
+                    <tr>
+                        <td>@item.Numero</td>
+                        <td>@(item.TiposHabitacion != null ? item.TiposHabitacion.Nombre : "Sin tipo")</td>
+                        <td>@item.Piso</td>
+                        <td>@(item.TiposHabitacion != null ? ("$" + item.TiposHabitacion.PrecioBase.ToString("N2")) : "-")</td>
+                        <td>@item.Estado</td>
+                        <td>
+                            <a href="@Url.Action("Edit", new { id = item.Id })" class="btn btn-sm btn-outline-primary">Editar</a>
+                            <a href="@Url.Action("Delete", new { id = item.Id })" class="btn btn-sm btn-outline-danger">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HotelDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Bitacora">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UsuarioId" Type="int" Nullable="false" />
+    <Property Name="FechaHora" Type="datetime" Nullable="false" />
+    <Property Name="Modulo" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Accion" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Detalle" Type="nvarchar(max)" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombres" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Apellidos" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Documento" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Telefono" Type="nvarchar" MaxLength="20" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="Pais" Type="nvarchar" MaxLength="50" />
+    <Property Name="Notas" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="FAQ">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Pregunta" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Respuesta" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Etiquetas" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Habitaciones">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Numero" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="TipoId" Type="int" Nullable="false" />
+    <Property Name="Piso" Type="int" Nullable="false" />
+    <Property Name="Estado" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Pagos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ReservaId" Type="int" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" Nullable="false" />
+    <Property Name="Monto" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="Metodo" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PaqueteServicio">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Precio" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="PaqueteServicio_ServiciosExtra">
+    <Key>
+      <PropertyRef Name="PaqueteId" />
+      <PropertyRef Name="ServicioId" />
+    </Key>
+    <Property Name="PaqueteId" Type="int" Nullable="false" />
+    <Property Name="ServicioId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Reservas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClienteId" Type="int" Nullable="false" />
+    <Property Name="HabitacionId" Type="int" Nullable="false" />
+    <Property Name="FechaIngreso" Type="date" Nullable="false" />
+    <Property Name="FechaSalida" Type="date" Nullable="false" />
+    <Property Name="Estado" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Adultos" Type="int" Nullable="false" />
+    <Property Name="Ninos" Type="int" Nullable="false" />
+    <Property Name="MontoEstimado" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="MontoPagado" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ReservaServicio">
+    <Key>
+      <PropertyRef Name="ReservaId" />
+      <PropertyRef Name="ServicioId" />
+    </Key>
+    <Property Name="ReservaId" Type="int" Nullable="false" />
+    <Property Name="ServicioId" Type="int" Nullable="false" />
+    <Property Name="Cantidad" Type="int" Nullable="false" />
+    <Property Name="Precio" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ServiciosExtra">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Precio" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TiposHabitacion">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Capacidad" Type="int" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar(max)" />
+    <Property Name="PrecioBase" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Trabajadores">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombres" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Apellidos" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="DUI_NIT" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Telefono" Type="nvarchar" MaxLength="20" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="Cargo" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Salario" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UsuarioRol">
+    <Key>
+      <PropertyRef Name="UsuarioId" />
+      <PropertyRef Name="RolId" />
+    </Key>
+    <Property Name="UsuarioId" Type="int" Nullable="false" />
+    <Property Name="RolId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Usuario" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="PasswordHash" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+    <Property Name="FechaAlta" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Bitacora__Usuari__6E01572D">
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="1" />
+    <End Role="Bitacora" Type="Self.Bitacora" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Bitacora">
+        <PropertyRef Name="UsuarioId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Habitacio__TipoI__5165187F">
+    <End Role="TiposHabitacion" Type="Self.TiposHabitacion" Multiplicity="1" />
+    <End Role="Habitaciones" Type="Self.Habitaciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TiposHabitacion">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Habitaciones">
+        <PropertyRef Name="TipoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Pagos__ReservaId__5FB337D6">
+    <End Role="Reservas" Type="Self.Reservas" Multiplicity="1" />
+    <End Role="Pagos" Type="Self.Pagos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Reservas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Pagos">
+        <PropertyRef Name="ReservaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PaqueteSe__Paque__04E4BC85">
+    <End Role="PaqueteServicio" Type="Self.PaqueteServicio" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="PaqueteServicio_ServiciosExtra" Type="Self.PaqueteServicio_ServiciosExtra" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PaqueteServicio">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PaqueteServicio_ServiciosExtra">
+        <PropertyRef Name="PaqueteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PaqueteSe__Servi__05D8E0BE">
+    <End Role="ServiciosExtra" Type="Self.ServiciosExtra" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="PaqueteServicio_ServiciosExtra" Type="Self.PaqueteServicio_ServiciosExtra" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ServiciosExtra">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PaqueteServicio_ServiciosExtra">
+        <PropertyRef Name="ServicioId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reservas__Client__59063A47">
+    <End Role="Clientes" Type="Self.Clientes" Multiplicity="1" />
+    <End Role="Reservas" Type="Self.Reservas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clientes">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Reservas">
+        <PropertyRef Name="ClienteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reservas__Habita__59FA5E80">
+    <End Role="Habitaciones" Type="Self.Habitaciones" Multiplicity="1" />
+    <End Role="Reservas" Type="Self.Reservas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Habitaciones">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Reservas">
+        <PropertyRef Name="HabitacionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ReservaSe__Reser__6754599E">
+    <End Role="Reservas" Type="Self.Reservas" Multiplicity="1" />
+    <End Role="ReservaServicio" Type="Self.ReservaServicio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Reservas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ReservaServicio">
+        <PropertyRef Name="ReservaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ReservaSe__Servi__68487DD7">
+    <End Role="ServiciosExtra" Type="Self.ServiciosExtra" Multiplicity="1" />
+    <End Role="ReservaServicio" Type="Self.ReservaServicio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ServiciosExtra">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ReservaServicio">
+        <PropertyRef Name="ServicioId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UsuarioRo__RolId__412EB0B6">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="1" />
+    <End Role="UsuarioRol" Type="Self.UsuarioRol" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UsuarioRol">
+        <PropertyRef Name="RolId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UsuarioRo__Usuar__403A8C7D">
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="1" />
+    <End Role="UsuarioRol" Type="Self.UsuarioRol" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UsuarioRol">
+        <PropertyRef Name="UsuarioId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="HotelDBModelStoreContainer">
+    <EntitySet Name="Bitacora" EntityType="Self.Bitacora" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Clientes" EntityType="Self.Clientes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FAQ" EntityType="Self.FAQ" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Habitaciones" EntityType="Self.Habitaciones" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pagos" EntityType="Self.Pagos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PaqueteServicio" EntityType="Self.PaqueteServicio" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PaqueteServicio_ServiciosExtra" EntityType="Self.PaqueteServicio_ServiciosExtra" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Reservas" EntityType="Self.Reservas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ReservaServicio" EntityType="Self.ReservaServicio" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ServiciosExtra" EntityType="Self.ServiciosExtra" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TiposHabitacion" EntityType="Self.TiposHabitacion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Trabajadores" EntityType="Self.Trabajadores" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UsuarioRol" EntityType="Self.UsuarioRol" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuarios" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Bitacora__Usuari__6E01572D" Association="Self.FK__Bitacora__Usuari__6E01572D">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="Bitacora" EntitySet="Bitacora" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Habitacio__TipoI__5165187F" Association="Self.FK__Habitacio__TipoI__5165187F">
+      <End Role="TiposHabitacion" EntitySet="TiposHabitacion" />
+      <End Role="Habitaciones" EntitySet="Habitaciones" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Pagos__ReservaId__5FB337D6" Association="Self.FK__Pagos__ReservaId__5FB337D6">
+      <End Role="Reservas" EntitySet="Reservas" />
+      <End Role="Pagos" EntitySet="Pagos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PaqueteSe__Paque__04E4BC85" Association="Self.FK__PaqueteSe__Paque__04E4BC85">
+      <End Role="PaqueteServicio" EntitySet="PaqueteServicio" />
+      <End Role="PaqueteServicio_ServiciosExtra" EntitySet="PaqueteServicio_ServiciosExtra" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PaqueteSe__Servi__05D8E0BE" Association="Self.FK__PaqueteSe__Servi__05D8E0BE">
+      <End Role="ServiciosExtra" EntitySet="ServiciosExtra" />
+      <End Role="PaqueteServicio_ServiciosExtra" EntitySet="PaqueteServicio_ServiciosExtra" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reservas__Client__59063A47" Association="Self.FK__Reservas__Client__59063A47">
+      <End Role="Clientes" EntitySet="Clientes" />
+      <End Role="Reservas" EntitySet="Reservas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reservas__Habita__59FA5E80" Association="Self.FK__Reservas__Habita__59FA5E80">
+      <End Role="Habitaciones" EntitySet="Habitaciones" />
+      <End Role="Reservas" EntitySet="Reservas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ReservaSe__Reser__6754599E" Association="Self.FK__ReservaSe__Reser__6754599E">
+      <End Role="Reservas" EntitySet="Reservas" />
+      <End Role="ReservaServicio" EntitySet="ReservaServicio" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ReservaSe__Servi__68487DD7" Association="Self.FK__ReservaSe__Servi__68487DD7">
+      <End Role="ServiciosExtra" EntitySet="ServiciosExtra" />
+      <End Role="ReservaServicio" EntitySet="ReservaServicio" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UsuarioRo__RolId__412EB0B6" Association="Self.FK__UsuarioRo__RolId__412EB0B6">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="UsuarioRol" EntitySet="UsuarioRol" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UsuarioRo__Usuar__403A8C7D" Association="Self.FK__UsuarioRo__Usuar__403A8C7D">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="UsuarioRol" EntitySet="UsuarioRol" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,67 @@
+﻿@model SistemaHotel.Models.Reservas
+@{
+    ViewBag.Title = "Agregar Reserva";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<div class="luxury-bg min-vh-100 p-4">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="luxury-title">Agregar Reserva</h2>
+            <a href="@Url.Action("Index")" class="btn btn-outline-secondary">Volver</a>
+        </div>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    @Html.LabelFor(m => m.ClienteId)
+                    @Html.DropDownList("ClienteId", null, "Seleccione un cliente", new { @class = "form-control", required = "required" })
+                    @Html.ValidationMessageFor(m => m.ClienteId, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-6 mb-3">
+                    @Html.LabelFor(m => m.HabitacionId)
+                    @Html.DropDownList("HabitacionId", null, "Seleccione una habitación", new { @class = "form-control", required = "required" })
+                    @Html.ValidationMessageFor(m => m.HabitacionId, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-6 mb-3">
+                    @Html.LabelFor(m => m.FechaIngreso)
+                    @Html.TextBoxFor(m => m.FechaIngreso, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date", required = "required" })
+                    @Html.ValidationMessageFor(m => m.FechaIngreso, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-6 mb-3">
+                    @Html.LabelFor(m => m.FechaSalida)
+                    @Html.TextBoxFor(m => m.FechaSalida, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date", required = "required" })
+                    @Html.ValidationMessageFor(m => m.FechaSalida, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-6 mb-3">
+                    @Html.LabelFor(m => m.Estado)
+                    @Html.TextBoxFor(m => m.Estado, new { @class = "form-control", maxlength = 30, required = "required" })
+                    @Html.ValidationMessageFor(m => m.Estado, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-3 mb-3">
+                    @Html.LabelFor(m => m.Adultos)
+                    @Html.TextBoxFor(m => m.Adultos, new { @class = "form-control", type = "number", min = 1, required = "required" })
+                    @Html.ValidationMessageFor(m => m.Adultos, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-3 mb-3">
+                    @Html.LabelFor(m => m.Ninos)
+                    @Html.TextBoxFor(m => m.Ninos, new { @class = "form-control", type = "number", min = 0, required = "required" })
+                    @Html.ValidationMessageFor(m => m.Ninos, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-6 mb-3">
+                    @Html.LabelFor(m => m.MontoEstimado)
+                    @Html.TextBoxFor(m => m.MontoEstimado, new { @class = "form-control", type = "number", min = 0, step = "0.01", required = "required" })
+                    @Html.ValidationMessageFor(m => m.MontoEstimado, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-6 mb-3">
+                    @Html.LabelFor(m => m.MontoPagado)
+                    @Html.TextBoxFor(m => m.MontoPagado, new { @class = "form-control", type = "number", min = 0, step = "0.01", required = "required" })
+                    @Html.ValidationMessageFor(m => m.MontoPagado, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <button type="submit" class="btn luxury-btn">Guardar</button>
+        }
+    </div>
+</div>
